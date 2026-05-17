@@ -2,7 +2,7 @@
 
 ![Unity](https://img.shields.io/badge/Unity-6%20LTS-black?style=flat-square&logo=unity)
 ![Render Pipeline](https://img.shields.io/badge/Pipeline-URP%20Render%20Graph-blue?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20VR-lightgrey?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac-lightgrey?style=flat-square)
 
 > A highly decoupled, procedural rendering pipeline built for **Unity 6 Universal Render Pipeline (URP)** to generate surreal, nostalgic, and unstable *Dreamcore* and *Analog Horror* visual aesthetics.
 
@@ -61,7 +61,7 @@ A custom dynamic bloom module designed for NPR (Non-Photorealistic Rendering) to
 
 ---
 
-## 🎮 Real-Time UI Control (Runtime Controller)
+## 🎚️ Real-Time UI Control (Runtime Controller)
 
 To facilitate level design and runtime tweaking, we implemented a robust, decoupled C# UI bridge (`ShaderController.cs`). 
 
