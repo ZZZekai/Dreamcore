@@ -1,0 +1,4 @@
+repository "DreamCore2/DreamCore@18968426889186@cloud"
+  path "/"
+    br "/main"
+    co "/main"
