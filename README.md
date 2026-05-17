@@ -22,7 +22,7 @@ Built upon the latest **Unity 6 URP Render Graph API**, this decoupled `Scriptab
 * **VHS Signal Interference:** Procedurally generates high-frequency tape jitter, dynamic full-screen noise, and V-Sync tearing driven by a time-based Heaviside step function.
 
 ![Post-processing Progression](./.readme_assets/postprocess_progression.png)
-*(a) Standard URP output ➔ (b) Lens distortion & pixelation ➔ (c) Delta-addition chromatic aberration ➔ (d) Full analog degradation with VHS tearing.*
+*(a) Standard URP render output ➔ (b) Applied barrel lens distortion & dynamic pixelation ➔ (c) Addition of heavy environmental tinting & delta-addition chromatic aberration ➔ (d) Full analog degradation including high-frequency jitter, dynamic noise, CRT scanlines, and V-Sync tearing.*
 
 ### 2. Procedural Geometric Decay (Vertex Displacement)
 A custom HLSL shader (`DreamNoiseHX_Lit`) that manipulates mesh geometry at the vertex level, making environments feel as if they are melting or sinking.
