@@ -30,7 +30,7 @@ A custom HLSL shader (`DreamNoiseHX_Lit`) that manipulates mesh geometry at the 
 * **Real-time Normal Estimation:** Recalculates accurate surface normals on the fly using the finite difference method, ensuring accurate lighting on heavily deformed geometry.
 * **Shadow Caster Synchronization:** Custom shadow passes guarantee that cast shadows perfectly match the melting, distorted silhouettes of the objects.
 
-![Displacement Progression](./.readme_assets/Procedral_Falloff.png)
+![Displacement Progression](./.readme_assets/displacement_comparison.png)
 *Visual progression of procedural mesh deformation from rigid geometry to extreme structural collapse.*
 
 ### 3. Multi-Scale Stylized Bloom
