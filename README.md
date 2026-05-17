@@ -1,5 +1,9 @@
 # 👁️ Procedural Rendering of Dreamcore Aesthetics in Unity
 
+![Unity](https://img.shields.io/badge/Unity-6%20LTS-black?style=flat-square&logo=unity)
+![Render Pipeline](https://img.shields.io/badge/Pipeline-URP%20Render%20Graph-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20VR-lightgrey?style=flat-square)
+
 > A highly decoupled, procedural rendering pipeline built for **Unity 6 Universal Render Pipeline (URP)** to generate surreal, nostalgic, and unstable *Dreamcore* and *Analog Horror* visual aesthetics.
 
 ![Project Overview](./.readme_assets/title.jpg)
@@ -43,11 +47,26 @@ A custom dynamic bloom module designed for NPR (Non-Photorealistic Rendering) to
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started & Installation
 
 ### Prerequisites
-* **Unity Version:** Unity 6 (or newer)
-* **Render Pipeline:** Universal Render Pipeline (URP)
+* **Unity Version:** Unity 6000.x LTS (or newer)
+* **Render Pipeline:** Universal Render Pipeline (URP) with Render Graph enabled.
+
+### Setup Guide
+1. Clone the repository and open the project in Unity 6.
+2. Ensure your project is using the URP asset configured with Render Graph.
+3. Assign the `0_PCrenderer` (or your custom Universal Renderer Data) to your Main Camera.
+4. Verify that `DreamcoreRenderFeature` and `DreamyBloomFeature` are added to the Renderer Features list in the inspector.
+
+---
+
+## 🎮 Real-Time UI Control (Runtime Controller)
+
+To facilitate level design and runtime tweaking, we implemented a robust, decoupled C# UI bridge (`ShaderController.cs`). 
+
+* **Direct GPU Memory Writing:** Bypasses standard URP Volume instantiation issues by writing directly to `Shader.SetGlobalFloat` and static memory blocks, ensuring zero latency and high reliability.
+* **In-Game Overlay:** Simply enter Play Mode and use the provided Canvas sliders to dynamically warp the space, increase VHS noise, or melt geometry in real-time.
 
 ---
 
