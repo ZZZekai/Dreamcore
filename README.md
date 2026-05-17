@@ -72,7 +72,7 @@ To facilitate level design and runtime tweaking, we implemented a robust, decoup
 
 ## 👥 Academic Background & Credits
 
-This project was developed at the **KTH Royal Institute of Technology** as an exploration of procedural graphics and internet aesthetics. 
+This project was developed as the final project for the **DH2323** course at the **KTH Royal Institute of Technology**, serving as an exploration of procedural graphics and internet aesthetics.
 
 **Core Contributors:**
 * **Jili Zhou** - Custom Multi-scale Bloom & Glow Effects
