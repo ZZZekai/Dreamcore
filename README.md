@@ -15,7 +15,7 @@ While traditional computer graphics strive for photorealism, this project demand
 
 ## Demo Video
 
-The demo video is included in the submitted zip file. It can also be viewed here: [Demo Video](https://drive.google.com/file/d/1KWLCZkfpf6hWcVSy8XnTSbaX3dlV3q/view?usp=sharing)
+The demo video is included in the submitted zip file. It can also be viewed here: [Demo Video](https://drive.google.com/file/d/1KWLCZkfpf6hWcWSy8XnkTSbaX3dlJv3q/view?usp=sharing)
 
 
 ## ✨ Core Technical Features
