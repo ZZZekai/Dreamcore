@@ -11,7 +11,7 @@
 
 While traditional computer graphics strive for photorealism, this project demands the opposite. We mathematically model and procedurally generate optical flaws, physical instability, and analog media degradation to evoke psychological unease and spatial ambiguity.
 
-📄 **[Read the Full Technical Report (PDF) Here](./.readme_assets/Project_Report.pdf)**
+📄 **[Read the Full Technical Report (PDF) Here](./.readme_assets/Procedural Rendering of Dreamcore like Visual Aesthetics in Unity.pdf)**
 
 ## Demo Video
 
